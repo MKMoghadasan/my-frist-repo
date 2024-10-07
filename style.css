@@ -1,1 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
 
+header {
+  background-color: red;
+  background-image: url(https://picsum.photos/id/2/567/467);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .cover {
+  background-color: rgb(56, 70, 117, 50%);
+}
+
+header .profile {
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: 50px;
+}
+
+header .title {
+  padding-bottom: 35px;
+}
